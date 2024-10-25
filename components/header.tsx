@@ -4,10 +4,10 @@ function Header() {
   return (
     <div>
       <section>
-        <div className="maainimag">
+        <div className="mydiv">
           <h1 className="myh1">Hi, I am John,</h1>
           <h1 className="myh2">Creative Technologist</h1>
-          <div>
+          <div className="maainimag">
             <Image
               className="myimage"
               src={"/image-1.png"}
@@ -33,3 +33,4 @@ function Header() {
 }
 
 export default Header;
+
