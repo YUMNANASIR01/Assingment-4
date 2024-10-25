@@ -267,7 +267,7 @@ textarea{
   background-color: rgb(249, 95, 95);
   color: azure;
 }
-@media (max-width: 786px){
+@media (max-width: 480px){
   .main-1{
     margin-left: 70px;
     padding-right: 20px;
@@ -291,10 +291,14 @@ textarea{
     justify-content: center;
     align-items: center;
     margin-left: 230px;
+    font-size: 18px;
+    
   }
   .myimmmg{
     margin-left: 10px;
     width: 200px;
+    margin-top: 60px;
+    height: 200px;
   }
   .btn{
     margin-left: 10px;
@@ -314,8 +318,8 @@ textarea{
   .mypara{
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
-    font-size: 15px;
+    margin-left: 20px;
+    font-size: 12px;
   }
   .mycolor{
     justify-content: center;
@@ -343,17 +347,22 @@ textarea{
     justify-content: center;
     align-items: center;
     font-size: 20px;
+   
+
   }
   .div2{
     justify-content: center;
     align-items: center;
+    width: 410px;
     font-size: 20px;
+    margin-left: 10px;
   }
   .mydiv3{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    
+    width: 410px;
+    margin-right: 0px;
   }
   .mydiv3 h4{
     justify-content: center;
