@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaRegCopyright } from "react-icons/fa";
+
 function Footer() {
   return (
     <><div>
@@ -18,7 +18,7 @@ function Footer() {
               </div>
           </section>
       </div><section>
-              <p className='mypara'>Copyright  &nbsp; <FaRegCopyright/>
+              <p className='mypara'>Copyright  &nbsp; © 
                 2020 All rights reserved</p>
           </section></>
   )

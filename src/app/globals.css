@@ -4,7 +4,7 @@
 
 body {
   height: 100vh;
-  background: rgb(238, 235, 235);
+  background: #CFA6A61C;
 }
 .main-1{
   display: flex;
@@ -13,8 +13,8 @@ body {
   align-items: center;
   gap: 20%;
   margin-left: 700px;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   padding-top: 30px;
 }
 .mydiv{
@@ -23,6 +23,7 @@ body {
   color: black;
   padding-bottom: 70px; 
    margin-top: auto;
+
 }
 .mydiv.p{
   position: relative;
@@ -50,34 +51,56 @@ body {
   background: gray ;
 }
 .view{
-  color: #F78C8C;
-  font-size: 22px;
-  font-weight: 800;
+font-family: Heebo;
+font-size: 22px;
+font-weight: 500;
+line-height: 32.31px;
+color: #F98585;
+text-align: left;
 }
 .recent{
+  font-family: Heebo;
   font-size: 22px;
-  font-weight: 800;
+  font-weight: 500;
+  line-height: 32.31px;
+  text-align: left;
+  padding-left: 20px;
 }
 .myh1{
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
   margin-left: 160px;
-  padding-top: 60px;
-  
+  padding-top: 60px; 
+  font-family: Heebo;
+  font-size: 48px;
+ font-weight: 900;
+ line-height: 61px;
+ letter-spacing: 2px;
+ backdrop-filter: blur(4px)
+
 }
 .myh2{
   margin-bottom: 30px;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
   margin-left: 160px;
+  font-family: Heebo;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 61px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-family: Heebo;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 61px;
+  letter-spacing: 2px;
+  backdrop-filter: blur(4px)
 
 }
 .myp{
   margin-left:  160px;
   margin-top: 60px;
-  font-weight: 600;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
 }
 
 .heading{
@@ -86,7 +109,7 @@ body {
     font-size: 22px;
     font-weight: 600;
     margin-left: 160px;
-    gap: 70%;
+    gap: 67%;
     padding-bottom: 20px;
     padding-top: 10px;
 }
@@ -125,6 +148,7 @@ body {
 .mycolor{
   background-color: #f4e2e2;
   margin-top: 70px;
+
 }
 .mydiv3{
   border: 18px solid #f4e2e2;
@@ -162,6 +186,10 @@ h3{
   padding-top: 20px;
   margin-top: 50px;
   font-weight: 800;
+font-family: Heebo;
+font-size: 25px;
+text-align: left;
+
 }
 .dash{
   margin-top: 50px;
@@ -193,7 +221,7 @@ h3{
    margin-left: 160px;
  position: absolute;  
  border: 3px solid gray;
- border-radius: 10%;
+ border-radius: 10px;
  box-shadow: 2px 2px 2px 2px rgb(150, 133, 133);
 }
 .icons{
