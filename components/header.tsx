@@ -12,8 +12,8 @@ function Header() {
               className="myimage"
               src={"/image-1.png"}
               alt={"image-1"}
-              width={270}
-              height={100}
+              width={300}
+              height={200}
             />
           </div>
 

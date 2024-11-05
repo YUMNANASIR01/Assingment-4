@@ -6,6 +6,7 @@ body {
   height: 100vh;
   background: #CFA6A61C;
 }
+
 .main-1{
   display: flex;
   margin: 10;
@@ -13,28 +14,28 @@ body {
   align-items: center;
   gap: 20%;
   margin-left: 700px;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .mydiv{
   position: relative;
-  padding-top: 30px;
+  padding-top: 100px;
   color: black;
   padding-bottom: 70px; 
    margin-top: auto;
-
+  margin-left: 50px;
 }
 .mydiv.p{
   position: relative;
 }
 .myimage{
   position: absolute;
-  top: 120px;
+  top: 190px;
   margin-left: 800px;
   border-radius: 170%;
   box-shadow: 2px 5px 8px 1px gray;
- padding-bottom: 8px;
+ padding-bottom: 10px;
 }
 .button{
   padding: 10px;
@@ -51,25 +52,24 @@ body {
   background: gray ;
 }
 .view{
-font-family: Heebo;
-font-size: 22px;
+  font-weight: 600;
+font-size: 23px;
 font-weight: 500;
 line-height: 32.31px;
 color: #F98585;
 text-align: left;
 }
 .recent{
-  font-family: Heebo;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 500;
   line-height: 32.31px;
   text-align: left;
   padding-left: 20px;
+  font-weight: 600;
 }
 .myh1{
   margin-left: 160px;
   padding-top: 60px; 
-  font-family: Heebo;
   font-size: 48px;
  font-weight: 900;
  line-height: 61px;
@@ -80,13 +80,11 @@ text-align: left;
 .myh2{
   margin-bottom: 30px;
   margin-left: 160px;
-  font-family: Heebo;
   font-size: 48px;
   font-weight: 900;
   line-height: 61px;
   letter-spacing: 2px;
   text-align: left;
-  font-family: Heebo;
   font-size: 48px;
   font-weight: 900;
   line-height: 61px;
@@ -97,7 +95,6 @@ text-align: left;
 .myp{
   margin-left:  160px;
   margin-top: 60px;
-  font-family: Heebo;
   font-size: 16px;
   font-weight: 400;
   line-height: 23.5px;
@@ -185,9 +182,8 @@ h3{
   font-weight: bold;
   padding-top: 20px;
   margin-top: 50px;
-  font-weight: 800;
-font-family: Heebo;
-font-size: 25px;
+  font-weight: 700;
+font-size: 24px;
 text-align: left;
 
 }
@@ -196,25 +192,30 @@ text-align: left;
   margin-left: 500px;
   position: relative;
   margin-bottom: 20px;
+ 
+
 }
 
 .btn{
   background-color: #F78C8C;
-  padding-left: 10px;
+  padding-left: 14px;
   padding-right: 10px;
   border-radius:  20%;
   display: flex;
   position: absolute;
   color: white;
-  margin: 10px;
+  margin-top: 6px;
   border: 2px solid #F78C8C;
   box-shadow: 3px 3px 3px 3px rgb(72, 68, 68);
 }
 .mybash{
   display: flex;
-   margin-left: 80px;
+   margin-left: 90px;
    margin-bottom: 30px;
-   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 20px;
+   font-weight: 600;
+
 }
 .myimmmg{
   display: flex; 
@@ -226,20 +227,20 @@ text-align: left;
 }
 .icons{
  display: flex;
- margin-left: 500px;
-margin-top: 60px;
+ margin-left: 580px;
+margin-top: 80px;
 position: relative;
-font-size: 35px;
-gap: 30px;
+font-size: 23px;
+gap: 70px;
 }
 .mypara{
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 50px;
   display: flex;
-  margin-left: 460px;
+  margin-left: 550px;
 }
 .contact{
   margin-top: 100px;
@@ -309,16 +310,17 @@ textarea{
       position: static;
       width: 250px;
       height: 250px;
+   
     }
     .myh1,
     .myh2 {
      text-align: start;
       font-size: 20px;
-      margin-left: 70px;
+      padding-right: 20px;
     }
   
     .myp{
-      margin-left: 50px;
+      margin-left: 10px;
       font-size: 14px;
       font-weight: 600;
       position: relative;
@@ -332,7 +334,7 @@ textarea{
       margin-top: 20px;
       position: relative;
       bottom: 150px;
-      left:70px
+      left:0px
     }
     .icons {
       display: flex;
@@ -341,7 +343,7 @@ textarea{
       justify-content: center; 
       margin-left: 0;
       margin-top: 20px;
-      font-size: 50px;
+      font-size: 20px;
       row-gap: 15px;
     }
     .mypara {
@@ -402,7 +404,8 @@ textarea{
       font-size: 16px; 
       margin-left: 20px; 
       text-align: center;
-      padding: 20px;
+      display: flex;
+      /* padding: 20px; */
     }
   }
    @media (max-width: 375px) {
@@ -444,10 +447,10 @@ textarea{
       gap: 15px;
     }
     .mypara {
-      font-size: 16px; 
-      margin-left: 20px; 
+      font-size: 15px; 
+      margin-left: 90px; 
       text-align: center;
-      padding: 20px;
+      padding: 90px;
     }
     .main-1 {
       flex-direction: row;
@@ -462,6 +465,7 @@ textarea{
     }
   }
   @media (max-width: 765px) {
+   
     h3 {
       margin-left: 5%; 
       font-size: 36px;
@@ -482,18 +486,30 @@ textarea{
       font-weight: 600;
     }
     .myimmmg {
-      margin-left: 5%; 
+      margin-left: 3%; 
       width: 100%; 
    height: 400px;
    width: 400px;
-   margin-left: 60px;
+   margin-right: 70px;
     }
     .btn {
-      margin-left: 10px; 
-      padding: 5px 20px 5px 20px;
+      margin-left: 190px; 
+      height: 32px;
+      width: 68px;
+      padding-top: 20px;
+      margin-bottom: 20px;
+      justify-content: center;
+      align-items: center;
     }
     .icons {
       margin-left: 5%;
+      font-size: 20px;
+    }
+    .mypara{
+      margin-left: 40px;
+      display: flex;
+      font-size: 12px;
+      padding-left: 34px;
     }
   }
   @media (max-width: 375px) {
@@ -515,7 +531,7 @@ textarea{
     }
     .dash p{
       font-size: 20px;
-      text-align: start;
+      margin-left: 20px;
       font-weight: 600;
     }
     .myimmmg {
@@ -530,7 +546,9 @@ textarea{
       padding: 5px 20px 5px 20px;
     }
     .icons {
-      margin-left: 0;
+      margin-left: 10px;
+      display: flex;
+
     }
   }
   @media (max-width: 765px) {

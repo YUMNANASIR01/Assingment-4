@@ -2,8 +2,9 @@ import React from 'react'
 
 function Blogs() {
   return (
-    <div>
+  <div>
           <section className='mycolor'>
+
            <div className='heading' >
        <h2 className='recent'>Recent post</h2>
        <h2 className='view'>view all</h2>
