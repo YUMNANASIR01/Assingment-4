@@ -1,17 +1,20 @@
+
+
+import { inter } from '@/app/font/font'
 import Link from 'next/link'
 import React from 'react'
 
 function Navbar() {
   return (
-    <div>
-         <section>
+    <div >
+         <section className={ inter.className}>
           <div >
-            <div>
+            <div className={ inter.className}>
                 <ul className='main-1'>
             
-                <Link href={'/works'}> <li>Works</li></Link>
-                <Link href={'/blogs'}><li>Blog</li></Link> 
-                <Link href={' /contact'}> <li>Contact</li></Link>
+                <span className={ inter.className}><Link href={'/works'}><li>Works</li></Link></span>
+                <span className={ inter.className}><Link href={'/blogs'}><li>Blog</li></Link></span> 
+                <span className={ inter.className}><Link href={' /contact'}> <li>Contact</li></Link></span>
           
                 </ul>
                
@@ -23,3 +26,4 @@ function Navbar() {
 }
 
 export default Navbar
+
