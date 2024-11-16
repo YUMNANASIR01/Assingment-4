@@ -8,11 +8,13 @@
   box-sizing: border-box;
  
 }
+
 body{
   width: 1440px;
   height: 100vh;
   padding-top: 67px;
-  background-color  : #CFA6A61C;
+  /* background-color  : #CFA6A61C; */
+  background-color  : red;
 }
 
 .main-1{
@@ -26,18 +28,19 @@ body{
   font-weight: 500;
   padding-top: 30px;
 }
+
 .mydiv{
   position: relative;
   padding-top: 20px;
   color: black;
   padding-bottom: 70px; 
-   margin-top: auto;
-  
+  margin-top: auto;
 }
+
 .mydiv.p{
   position: relative;
-
 }
+
 .myimage{
   position: absolute;
   top: 160px;
@@ -46,6 +49,7 @@ body{
   box-shadow: 2px 5px 8px 1px gray;
  padding-bottom: 8px;
 }
+
 .button{
   padding: 10px;
   border-radius: 2px;
