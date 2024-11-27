@@ -1,11 +1,10 @@
-
 import React from "react";
 import Image from "next/image";
 import { heebo } from "@/app/font/font";
 
 function Header() {
   return (
-    <div className={heebo.className}>
+    <>
       <section className={heebo.className} >
         <div className="mydiv">
      
@@ -33,7 +32,7 @@ function Header() {
           <button className="button "><span className={heebo.className}>Download Resume</span></button>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

@@ -4,8 +4,8 @@ import Header from '../../components/header';
 function page() {
   return (
     <>
-        <Header/>
-        </>
+      <Header/>
+    </>
   )
 }
 export default page

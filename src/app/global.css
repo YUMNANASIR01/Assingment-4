@@ -13,14 +13,12 @@
 }
 
 body{
-  width: 100%;
-  max-width: 1440px;
+  width: 1440px;
   height: 100vh;
   padding-top: 67px;
   background: #CFA6A61C;
   
 }
-
 
 .main-1{
   display: flex;
@@ -33,28 +31,26 @@ body{
   font-weight: 500;
   padding-top: 30px;
 }
-
 .mydiv{
   position: relative;
   padding-top: 20px;
   color: black;
   padding-bottom: 70px; 
-  margin-top: auto;
+   margin-top: auto;
+  
 }
-
 .mydiv.p{
   position: relative;
-}
 
+}
 .myimage{
   position: absolute;
   top: 160px;
-  margin-left: 800px;
+  margin-left: 900px;
   border-radius: 170%;
   box-shadow: 2px 5px 8px 1px gray;
  padding-bottom: 8px;
 }
-
 .button{
   padding: 10px;
   border-radius: 2px;
@@ -70,11 +66,30 @@ body{
   background: gray ;
 }
 
+header{
+  position: absolute;
+  left: 1088px;
+  width: 283px;
+  height: 24px;
+  
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
 .main-1{
   font-weight: 500;
 }
 
-
+header ul li{
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24.2px;
+  text-decoration: none;
+}
 .hero{
   width: 1030px;
   height: 308px;
@@ -115,7 +130,7 @@ height: 305px;
 top: 24px;
 left: 231px;
 gap: 0px;
-opacity: 1px;
+opacity: 0px;
 position: relative;
 
 
@@ -130,13 +145,12 @@ width: 521px;
 top: 249px;
 left: 231px;
 gap: 0px;
-opacity: 1;
+opacity: 0px;
 font-size: 48px;
 font-weight: 900;
 line-height: 61px;
 letter-spacing: 2px;
 text-align: left;
-
 }
 .myh2{
   width: 521px;
@@ -144,7 +158,7 @@ height: 70px;
 top: 249px;
 left: 231px;
 gap: 0px;
-opacity: 1;
+opacity: 0px;
 font-size: 48px;
 font-weight: 900;
 line-height: 61px;
@@ -555,6 +569,14 @@ opacity: 0px;
 
 }
 .icons{
+<<<<<<<<< Temporary merge branch 1
+ display: flex;
+ margin-left: 522px;
+margin-top: 80px;
+position: relative;
+font-size: 23px;
+gap: 70px;
+=========
   width: 279px;
 height: 30px;
 top: 2288px;
@@ -565,6 +587,7 @@ display: flex;
 padding-top: 120px;
 
 
+>>>>>>>>> Temporary merge branch 2
 }
 .rec1{
   width: 1440px;
@@ -614,7 +637,7 @@ display: flex;
   gap: 0px;
   opacity: 0px;
   color: #21243D;
-  margin-left: 420px;
+  margin-left: 520px;
   font-size: 22px;
 }
 .insta{
@@ -670,11 +693,15 @@ opacity: 0px;
   opacity: 0px;
   color: #21243D;
   display: flex;
+<<<<<<<<< Temporary merge branch 1
+  margin-left: 500px;
+=========
   position: relative;
   bottom: 0px;
   top: 98%;
   margin-left: 10px;
   font-size: 22px;
+>>>>>>>>> Temporary merge branch 2
 }
 .contact{
   margin-top: 100px;
@@ -740,7 +767,7 @@ textarea{
    font-weight: 700;
    padding-bottom: 50px;
    display: flex;
-   margin-left: 470px;
+   margin-left: 570px;
    font-family: "Heebo";
    font-size: 22px;
    font-weight: 500;
@@ -929,489 +956,6 @@ text-align: left;
   justify-items: center;
   align-items: center;
 }
-h3{
-  margin-left: 160px;
-  font-size: 30px;
-  font-weight: bold;
-  padding-top: 20px;
-  margin-top: 50px;
-  font-weight: 700;
-font-size: 24px;
-text-align: left;
-
-}
-.dash{
-  margin-top: 50px;
-  margin-left: 500px;
-  position: relative;
-  margin-bottom: 20px;
- 
-
-}
-
-.btn{
-  background-color: #F78C8C;
-  padding-left: 14px;
-  padding-right: 10px;
-  border-radius:  20%;
-  display: flex;
-  position: absolute;
-  color: white;
-  margin-top: 6px;
-  border: 2px solid #F78C8C;
-  box-shadow: 3px 3px 3px 3px rgb(72, 68, 68);
-}
-.mybash{
-  display: flex;
-   margin-left: 90px;
-   margin-bottom: 30px;
-   padding-bottom: 10px;
-   font-size: 20px;
-   font-weight: 600;
-
-}
-.myimmmg{
-  display: flex; 
-   margin-left: 160px;
- position: absolute;  
- border: 3px solid gray;
- border-radius: 10px;
- box-shadow: 2px 2px 2px 2px rgb(150, 133, 133);
-}
-.icons{
- display: flex;
- margin-left: 580px;
-margin-top: 80px;
-position: relative;
-font-size: 23px;
-gap: 70px;
-}
-.mypara{
-  margin-top: 30px;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 50px;
-  display: flex;
-  margin-left: 550px;
-}
-.contact{
-  margin-top: 100px;
-  color: black;
-  text-align: center;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 20px;
-  font-weight: 700;
-}
-input{
-  background-color: White;
-  width: 50%;
-  margin-left: 25%;
-  font-size: 20px;
-  padding: 16px 16px;
-  border-radius: 10px;
-  border-color: black ;
-  margin-bottom: 20px;
-  color: black;
-}
-textarea{
-  color: black;
-  background: white;
-  width: 50%;
-  margin-left: 25%;
-  padding: 15px 15px;
-  border-radius: 10px;
-  border-color: black;
-  margin-bottom: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.button-2{
-  background-color: #F78C8C;
-  border-radius: 20px;
-  border-color: black;
-  font-size: 22px;
-  padding: 11px 11px;
-  text-align: center;
-  display: flex;
-  margin: auto;
-  color: white;
-  font-weight: 600;
-  box-shadow: 3px 5px 5px 3px rgb(72, 68, 68);
-}
-.button-2:hover{
-  opacity: 80%;
-  cursor: pointer;
-  background-color: rgb(249, 95, 95);
-  color: azure;
-}
-
-   @media (max-width: 768px) {
-    .mydiv {
-      flex-direction: row;
-      align-items: start;
-      justify-content: start;
-   
-    }
-  .maainimag{
-    
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-right: 300px;
-    
-  }
-    .myimage {
-      position: static;
-      width: 250px;
-      height: 250px;
-      top: 50%;
-   
-    }
-    .myh1,
-    .myh2 {
-     text-align: start;
-      font-size: 20px;
-      padding-right: 60px;
-    }
-  
-    .myp{
-      margin-left: 10px;
-      font-size: 14px;
-      font-weight: 600;
-      position: relative;
-      bottom: 250px;
-      margin-left: 150px;
-      
-    }
-  
-    .button {
-      margin-left: 0;
-      width: 200px;
-      margin-top: 20px;
-      position: relative;
-      bottom: 150px;
-      left:0px;
-      margin-left: 150px;
-
-    }
-    .icons {
-      display: flex;
-      flex-direction: row; 
-      align-items: center;
-      justify-content: center; 
-      margin-left: 0;
-      margin-top: 20px;
-      font-size: 20px;
-      row-gap: 15px;
-    }
-    .mypara {
-      font-size: 26px; 
-      display: flex;
-      justify-content: center;
-      margin: auto;
-    }
-    .main-1 {
-      margin-left: 0;
-      display: flex;
-      flex-direction: row;
-      margin-right: 20px;
-      align-items: end;
-      justify-content: end;
-      font-size: 30px;
-      gap: 50px;
-    }
-  }
-  @media (max-width: 480px) {
-    .myimage {
-      position: static; 
-      margin: 10px auto;
-      width: 200px;
-      height: 200px;
-   
-    }
-    .button {
-      width: 200px;
-      margin-left: 50px;
-    }
-    .main-1 {
-      margin-left: 0;
-      display: flex;
-      flex-direction: row;
-      margin-right: 20px;
-      align-items: end;
-      justify-content: end;
-      font-size: 20px;
-      gap: 50px;
-    }
-    .myh1,
-    .myh2 {
-  text-align: center;
-      font-size: 20px;
-      margin-left: 0;
-    }
-    .icons {
-      font-size: 28px;
-      margin-top: 15px;
-    }
-    .myp{
-       margin-top:300px ;
-       font-size: 16px;
-       text-align: center;
-       margin-right: 30px;
-    }
-    .mypara {
-      font-size: 16px; 
-      margin-left: 20px; 
-      text-align: center;
-      display: flex;
-      
-    }
-  }
-   @media (max-width: 375px) {
-    .mydiv {
-      flex-direction: column;
-      padding: 20px;
-    }
-  
-    .myimage {
-      position: static; 
-      margin: 10px auto;
-      width: 200px;
-      height: 200px;
-    }
-    .button {
-      margin-left: 0; 
-      margin-top: 20px;
-      width: 200px;
-    }
-    .myh1,
-    .myh2 {
-  text-align: center;
-      font-size: 20px;
-      margin-left: 0;
-    }
-    .myp{
-      margin-left: 0;
-       margin-top:300px ;
-      font-size: 16px;
-    }
-    .icons {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin-left: 0;
-      margin-top: 20px;
-      font-size: 30px;
-      gap: 15px;
-    }
-    .mypara {
-      font-size: 15px; 
-      margin-left: 90px; 
-      text-align: center;
-      padding: 90px;
-    }
-    .main-1 {
-      flex-direction: row;
-      align-items: center; 
-      gap: 40px; 
-      margin-left: 0;
-      font-size: 20px; 
-      padding-top: 20px;
-    }
-    .main-1 li {
-      list-style: none;
-    }
-  }
-  @media (max-width: 765px) {
-   
-    h3 {
-      margin-left: 5%; 
-      font-size: 36px;
-      text-align: start; 
-    }
-    .dash {
-      margin-left: 5%;
-      font-size: 24px;
-      text-align: center; 
-    }
-    .mybash {
-      margin-left: 110px; 
-       margin-top: 500px;
-    }
-    .dash p{
-      font-size: 20px;
-      text-align: start;
-      font-weight: 600;
-    }
-    .myimmmg {
-      margin-left: 3%; 
-      width: 100%; 
-   height: 400px;
-   width: 400px;
-   margin-right: 70px;
-    }
-    .btn {
-      margin-left: 190px; 
-      height: 32px;
-      width: 68px;
-      padding-top: 20px;
-      margin-bottom: 20px;
-      justify-content: center;
-      align-items: center;
-    }
-    .icons {
-      margin-left: 5%;
-      font-size: 20px;
-    }
-    .mypara{
-      margin-left: 40px;
-      display: flex;
-      font-size: 12px;
-      padding-left: 34px;
-    }
-  }
-  @media (max-width: 375px) {
-    h3 {
-      text-align: center;
-      margin-left: 0;
-      font-size: 42px; 
-    }
-  
-    .dash {
-      text-align: center;
-      margin-left: 0; 
-      font-size: 22px;
-    }
-  
-    .mybash {
-      margin-left: 110px; 
-       margin-top: 300px;
-    }
-    .dash p{
-      font-size: 20px;
-      margin-left: 20px;
-      font-weight: 600;
-    }
-    .myimmmg {
-      margin-left: 0; 
-      width: 100%; 
-      height: 250px; 
-      width: 250px;
-      margin-left: 50px;
-    }
-    .btn {
-      margin-left: 10px; 
-      padding: 5px 20px 5px 20px;
-    }
-    .icons {
-      margin-left: 10px;
-      display: flex;
-
-    }
-  }
-  @media (max-width: 765px) {
-    .heading {
-      flex-direction: column;
-      align-items: center;
-      margin-left: 0;
-      gap: 10px;
-      text-align: center;
-    }
-    .mycolor{
-      background: rgb(238, 235, 235);
-    }
-    .heading h2{
-      font-size: 30px;
-    }
-  
-    .div1 {
-      flex-direction: column;
-      align-items: center;
-    padding: 20px;}
-
-    .div2, .mydiv3 {
-      width: 90%; 
-      margin-bottom: 20px;
-    }
-.div2{
-  margin-right: 220px;
-}
-    .mydiv3{
-      margin-left: 220px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .heading h2 {
-      font-size: 28px; 
-    }
-  
-    .div2 h1, .mydiv3 h1 {
-      font-size: 20px; 
-    }
-  
-    .div2, .mydiv3 {
-      width: 100%; 
-      margin: 0;
-    }
-  
-    .div1 {
-      padding-bottom: 20px;
-    }
-  }
-  @media (max-width: 375px) {
-    .heading {
-      margin: 0;
-      gap: 5px;
-      font-size: 30px;
-    }
-    .div2 h1, .mydiv3 h1 {
-      font-size: 18px;
-    }
-    .div2 h4, .mydiv3 h4,
-    .div2 p, .mydiv3 p {
-      margin: 0 10px;
-    }
-    .div1 {
-      padding-bottom: 10px;
-    }
-  }
-  @media (max-width: 765px) {
-    input, textarea {
-      width: 70%;
-      margin-left: 15%; 
-    }
-    .contact {
-      font-size: 35px; 
-    }
-  }
-  @media (max-width: 480px) {
-    input, textarea {
-      width: 80%;
-      margin-left: 10%;
-      font-size: 18px; 
-    }
-    .contact {
-      font-size: 30px;
-      margin-top: 70px;
-    }
-  }
-  @media (max-width: 375px) {
-    input, textarea {
-      width: 90%;
-      margin-left: 5%; 
-      font-size: 16px; 
-        }
-    .contact {
-      font-size: 25px;
-    }
-    .button-2 {
-      font-size: 20px;
-      padding: 10px; 
-    }
-  }
 
 
 
@@ -1422,119 +966,3 @@ textarea{
 
 
 
-
-  @media (max-width: 300px) {
-    body {
-      background: #CFA6A61C;
-    }
-  
-    .main-1 {
-      flex-direction: row;
-      margin-left: 500px;
-      gap: 30px;
-      font-size: 20px;
-      padding-top: 10px;
-
-    }
-    .mycolor{
-      position: relative;
-      left: 23%;
-      width: 150%;
-    }
-  .dash{
-    position: relative;
-    left: 50%;
-  }
-  .myimmmg{
-    left: 40%;
-    width: 100%;
-  }
-    .mydiv {
-      padding: 10px;
-    }
-  
-    .myimage {
-      position: absolute;
-      top: 20%;
-      left: 160%;
-      margin-top: 20px;
-      margin-right: 50px;
-    }
-  
-    .button {
-      margin-left: 100px;
-      margin-top: 20px;
-      font-size: 15px;
-    }
-  
-    .hero-text {
-      padding: 0;
-      font-size: 14px;
-      line-height: 20px;
-      text-align: center;
-    }
-  .myp{
-    position: relative;  
-    left: 30%;  
-    display: flex;
-  }
-    .recent-posts {
-      width: 100%;
-      margin-top: 20px;
-      padding: 10px;
-    }
-  
-    .postdiv {
-      flex-direction: column;
-      gap: 10px;
-    }
-    .myparra{
-     display: flex;
-     position: absolute;
-     right: -280px;
-     width: 140%;
-    }
-  .icoons{
-  right: 300px;
-   position: relative;
-   font-size: 22px;
-  }
-    .footer {
-      padding: 10px;
-      text-align: center;
-      margin-right: 200px;
-      font-size: 14px;
-    }
-  
-    .icons {
-      margin-left: 0;
-      justify-content: center;
-      gap: 10px;
-    }
-  
-    .contact {
-      font-size: 24px;
-      margin-top: 50px;
-      left: 50%;
-      position: relative;
-      
-    }
-    
-  
-    input,
-    textarea {
-      width: 90%;
-      margin-left: 55%;
-      font-size: 16px;
-      padding: 10px;
-    }
-  
-    .button-2 {
-      margin-left: 80%;
-      font-size: 16px;
-      display: flex;
-      width: 50%;
-      text-align: center;
-      padding-left: 18px;
-    }
-  }
