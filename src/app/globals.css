@@ -13,12 +13,14 @@
 }
 
 body{
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 100vh;
   padding-top: 67px;
   background: #CFA6A61C;
   
 }
+
 
 .main-1{
   display: flex;
@@ -31,26 +33,28 @@ body{
   font-weight: 500;
   padding-top: 30px;
 }
+
 .mydiv{
   position: relative;
   padding-top: 20px;
   color: black;
   padding-bottom: 70px; 
-   margin-top: auto;
-  
+  margin-top: auto;
 }
+
 .mydiv.p{
   position: relative;
-
 }
+
 .myimage{
   position: absolute;
   top: 160px;
-  margin-left: 900px;
+  margin-left: 800px;
   border-radius: 170%;
   box-shadow: 2px 5px 8px 1px gray;
  padding-bottom: 8px;
 }
+
 .button{
   padding: 10px;
   border-radius: 2px;
@@ -66,30 +70,11 @@ body{
   background: gray ;
 }
 
-header{
-  position: absolute;
-  left: 1088px;
-  width: 283px;
-  height: 24px;
-  
-}
-
-header ul{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
- 
-}
 .main-1{
   font-weight: 500;
 }
 
-header ul li{
-  display: inline-block;
-  font-size: 20px;
-  line-height: 24.2px;
-  text-decoration: none;
-}
+
 .hero{
   width: 1030px;
   height: 308px;
@@ -130,7 +115,7 @@ height: 305px;
 top: 24px;
 left: 231px;
 gap: 0px;
-opacity: 0px;
+opacity: 1px;
 position: relative;
 
 
@@ -145,12 +130,13 @@ width: 521px;
 top: 249px;
 left: 231px;
 gap: 0px;
-opacity: 0px;
+opacity: 1;
 font-size: 48px;
 font-weight: 900;
 line-height: 61px;
 letter-spacing: 2px;
 text-align: left;
+
 }
 .myh2{
   width: 521px;
@@ -158,7 +144,7 @@ height: 70px;
 top: 249px;
 left: 231px;
 gap: 0px;
-opacity: 0px;
+opacity: 1;
 font-size: 48px;
 font-weight: 900;
 line-height: 61px;
@@ -628,7 +614,7 @@ display: flex;
   gap: 0px;
   opacity: 0px;
   color: #21243D;
-  margin-left: 520px;
+  margin-left: 420px;
   font-size: 22px;
 }
 .insta{
@@ -754,7 +740,7 @@ textarea{
    font-weight: 700;
    padding-bottom: 50px;
    display: flex;
-   margin-left: 570px;
+   margin-left: 470px;
    font-family: "Heebo";
    font-size: 22px;
    font-weight: 500;
@@ -1072,18 +1058,21 @@ textarea{
     display: flex;
     justify-content: end;
     align-items: center;
+    margin-right: 300px;
+    
   }
     .myimage {
       position: static;
       width: 250px;
       height: 250px;
+      top: 50%;
    
     }
     .myh1,
     .myh2 {
      text-align: start;
       font-size: 20px;
-      padding-right: 20px;
+      padding-right: 60px;
     }
   
     .myp{
@@ -1092,6 +1081,7 @@ textarea{
       font-weight: 600;
       position: relative;
       bottom: 250px;
+      margin-left: 150px;
       
     }
   
@@ -1101,7 +1091,9 @@ textarea{
       margin-top: 20px;
       position: relative;
       bottom: 150px;
-      left:0px
+      left:0px;
+      margin-left: 150px;
+
     }
     .icons {
       display: flex;
@@ -1136,6 +1128,7 @@ textarea{
       margin: 10px auto;
       width: 200px;
       height: 200px;
+   
     }
     .button {
       width: 200px;
@@ -1172,7 +1165,7 @@ textarea{
       margin-left: 20px; 
       text-align: center;
       display: flex;
-      /* padding: 20px; */
+      
     }
   }
    @media (max-width: 375px) {
@@ -1421,3 +1414,127 @@ textarea{
   }
 
 
+
+
+
+
+
+
+
+
+
+  @media (max-width: 300px) {
+    body {
+      background: #CFA6A61C;
+    }
+  
+    .main-1 {
+      flex-direction: row;
+      margin-left: 500px;
+      gap: 30px;
+      font-size: 20px;
+      padding-top: 10px;
+
+    }
+    .mycolor{
+      position: relative;
+      left: 23%;
+      width: 150%;
+    }
+  .dash{
+    position: relative;
+    left: 50%;
+  }
+  .myimmmg{
+    left: 40%;
+    width: 100%;
+  }
+    .mydiv {
+      padding: 10px;
+    }
+  
+    .myimage {
+      position: absolute;
+      top: 20%;
+      left: 160%;
+      margin-top: 20px;
+      margin-right: 50px;
+    }
+  
+    .button {
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  
+    .hero-text {
+      padding: 0;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+    }
+  .myp{
+    position: relative;  
+    left: 30%;  
+    display: flex;
+  }
+    .recent-posts {
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+    }
+  
+    .postdiv {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .myparra{
+     display: flex;
+     position: absolute;
+     right: -280px;
+     width: 140%;
+    }
+  .icoons{
+  right: 300px;
+   position: relative;
+   font-size: 22px;
+  }
+    .footer {
+      padding: 10px;
+      text-align: center;
+      margin-right: 200px;
+      font-size: 14px;
+    }
+  
+    .icons {
+      margin-left: 0;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .contact {
+      font-size: 24px;
+      margin-top: 50px;
+      left: 50%;
+      position: relative;
+      
+    }
+    
+  
+    input,
+    textarea {
+      width: 90%;
+      margin-left: 55%;
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .button-2 {
+      margin-left: 80%;
+      font-size: 16px;
+      display: flex;
+      width: 50%;
+      text-align: center;
+      padding-left: 18px;
+    }
+  }
