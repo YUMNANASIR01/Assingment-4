@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +14,8 @@
 }
 
 body{
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 100vh;
   padding-top: 67px;
   background: #CFA6A61C;
@@ -31,12 +33,14 @@ body{
   font-weight: 500;
   padding-top: 30px;
 }
+
 .mydiv{
   position: relative;
   padding-top: 20px;
   color: black;
   padding-bottom: 70px; 
    margin-top: auto;
+   background-color: red;
   
 }
 .mydiv.p{
@@ -49,7 +53,8 @@ body{
   margin-left: 900px;
   border-radius: 170%;
   box-shadow: 2px 5px 8px 1px gray;
- padding-bottom: 8px;
+  padding-bottom: 8px;
+  margin-top: 150px;
 }
 .button{
   padding: 10px;
@@ -569,14 +574,14 @@ opacity: 0px;
 
 }
 .icons{
-<<<<<<<<< Temporary merge branch 1
+
  display: flex;
  margin-left: 522px;
 margin-top: 80px;
 position: relative;
 font-size: 23px;
 gap: 70px;
-=========
+
   width: 279px;
 height: 30px;
 top: 2288px;
@@ -587,7 +592,6 @@ display: flex;
 padding-top: 120px;
 
 
->>>>>>>>> Temporary merge branch 2
 }
 .rec1{
   width: 1440px;
@@ -693,15 +697,15 @@ opacity: 0px;
   opacity: 0px;
   color: #21243D;
   display: flex;
-<<<<<<<<< Temporary merge branch 1
+
   margin-left: 500px;
-=========
+
   position: relative;
   bottom: 0px;
   top: 98%;
   margin-left: 10px;
   font-size: 22px;
->>>>>>>>> Temporary merge branch 2
+
 }
 .contact{
   margin-top: 100px;
@@ -756,7 +760,7 @@ textarea{
 }
 .icoons{
   display: flex;
-  margin-left: 80px;
+  margin-left: -35px;
  margin-top: 100px;
  font-size: 20px;
  gap: 30px;
@@ -767,7 +771,7 @@ textarea{
    font-weight: 700;
    padding-bottom: 50px;
    display: flex;
-   margin-left: 570px;
+   margin-left: 450px;
    font-family: "Heebo";
    font-size: 22px;
    font-weight: 500;
@@ -962,7 +966,301 @@ text-align: left;
 
 
 
+@media (max-width: 300px) {
+  body {
+    padding-top: 20px;
+  }
+
+  .main-1 {
+    flex-direction: flex;
+    gap: 30px;
+    margin-left: 450px;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .myimage {
+    position: absolute;
+    top: auto;
+    right: -450px;
+    
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 8px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  header {
+    position: relative;
+    left: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    width: 100%;
+    height: auto;
+    top: auto;
+    left: auto;
+  }
+
+  .hero-image {
+    padding-left: 0;
+    position: relative;
+    top: auto;
+    text-align: center;
+  }
+
+  .img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+.myimage{
+  width: 80%;
+
+}
+  .recent-posts {
+    width: 100%;
+    margin-top: 20px;
+  }
+.myp{
+  display: flex;
+  width: 300px;
+}
+  .myh1 .myh2{
+    position: relative;
+    font-size: 20px;
+   
+  }
+  .postdiv {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer {
+    width: 100%;
+  }
+  .button{
+    position: relative;
+    left: 70%;
+  }
+  .myparra{
+    display: flex;
+    width: 400px;
+    position: relative;
+    right: 90%;
+  }
+  .icoons{
+    position: relative;
+    right: 90%;
+  }
+
+}
 
 
 
+
+@media (max-width: 300px) {
+
+
+  header ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header ul li {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .hero {
+    width: 100%;
+    height: auto;
+    top: auto;
+    left: 0;
+  }
+
+  .hero-image {
+    padding-left: 0;
+    top: 20%;
+    text-align: center;
+  }
+
+  .img {
+    width: 150px;
+    height: 150px;
+    top: auto;
+    left: auto;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    padding: 10px;
+    width: auto;
+    height: auto;
+  }
+
+  .myh1, .myh2 {
+    font-size: 24px;
+    line-height: 30px;
+    
+  }
+
+  .btndiv {
+    width: 150px;
+    height: auto;
+    font-size: 10px;
+    line-height: 18px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+  }
+
+  .postdiv {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rect5 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .group2, .group5 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .grop2h3, .para {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .span1, .sp2 {
+    display: none; 
+  }
+
+  
+
+  .icons {
+    font-size: 20px;
+    gap: 10px;
+    margin: 10px auto;
+    justify-content: center;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+  } 
+  .recent-posts,
+  .sectionofrecentpost {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+.mycolor{
+  width: 600px;
+}
+
+
+
+  .contact {
+    font-size: 24px; 
+    margin-left: 230px;
+    width: 200px;
+  }
+
+  input,
+  textarea {
+    width: 90%; 
+    margin-left: 5%;
+    font-size: 14px;
+    margin-left: 200px;
+  }
+
+  .button-2 {
+    font-size: 16px;
+    padding-left: 20px;
+    width: 50%;
+    margin-left: 250px;
+    text-align: center;
+  }
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+
+@media screen and (max-width: 300px) {
+  h3 {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .dash {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 2px;
+  }
+
+  .btn {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px; 
+  }
+
+  .mybash {
+    margin-left: 80px;
+    margin-bottom: 40px;
+  }
+
+  .myimmmg {
+    margin-left: 330px;
+    width: 70%;
+    margin-top: 130px;
+  }
+
+  .button {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px){
+  .mainPage{
+    display : flex;
+    flex-direction : column
+  }
+}
 

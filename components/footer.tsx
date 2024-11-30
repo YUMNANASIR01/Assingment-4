@@ -16,7 +16,8 @@ function Footer() {
             <div className='icoons'>
              <Link className=' facebook' href={'https://www.facebook.com/'}> <FaFacebookSquare /></Link>        
                      <Link className="insta" href={'https://www.instagram.com/accounts/login/?hl=en'}><FaInstagram /></Link> 
-              <Link className='twitter' href={''}><FaTwitter /></Link>                <Link className="linedin" href={'https://www.linkedin.com/in/yumna-nasir-4382132b5/'}><FaLinkedin /></Link> 
+              <Link className='twitter' href={''}><FaTwitter /></Link>         
+                     <Link className="linedin" href={'https://www.linkedin.com/in/yumna-nasir-4382132b5/'}><FaLinkedin /></Link> 
                
              </div>
              </div>
